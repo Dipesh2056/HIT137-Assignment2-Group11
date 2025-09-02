@@ -19,7 +19,7 @@ def parse_csv_data(csv_file_path):
                     data[station].append(float(row[month]))  
     return data  
 
-# Step 2: Seasonal Average Calculation
+############# Step 2: Seasonal Average Calculation
 def calculate_seasonal_average(data):
     ############-------------Creates a place to store seasonal temperatures------------#######
     seasonal_data = defaultdict(list)  
