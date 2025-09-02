@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # Step 1: Data Collection and Preparation
 def parse_csv_data(csv_file_path):
-    #######---- Creates a place to store temperatures for each station -----#######
+    #######---- Creates a place to store temperatures for each station -------#######
     data = defaultdict(list)  
     with open(csv_file_path, 'r', newline='') as csvfile:  
         ###########------- Reads the file row by row -------------###########
